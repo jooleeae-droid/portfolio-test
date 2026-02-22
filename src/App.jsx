@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 const Portfolio = () => {
   const [activeSection, setActiveSection] = useState('home');
@@ -358,6 +359,7 @@ const Portfolio = () => {
           <p>Designed with ❤️ and AI</p>
         </div>
       </footer>
+      <SpeedInsights />
     </div>
   );
 };
